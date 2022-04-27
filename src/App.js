@@ -1,19 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from 'react-bootstrap/Button'
+// import { Button } from 'react-bootstrap';
 
 // 리액트용 부트스트랩 사용하기
 // 리액트용 부트스트랩 설치
+// 기본 설치방식
 // > yarn add react-bootstrap bootstrap
 
-// 리액트용 부트스트랩 로드 방법 2 가지
+// CDN을 통해 설치
+// index.html에 bootstrap 파일을 로딩(css, js)
+
+// !주의사항!
+// 기본 설치 방식으로 설치한 경우 
+// bootstrap.min.css를 index.js에 import해서 사용해야 함
+// CDN 방식으로 사용할 경우에는 index.js에 import 생략
+
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+// 리액트용 부트스트랩 태그 로드 방법 2 가지
 // 1. import Button from 'react-bootstrap/Button';
 // 2. import { Button } from 'react-bootstrap';
 
+// 리액트용 부트스트랩 태그 사용
 // <Button>부트스트랩 버튼</Button>
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <br />
+      <Button> 리액트용 부트스트랩 </Button>
+
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -26,7 +43,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
