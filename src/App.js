@@ -10,7 +10,8 @@ import './App.css';
 import { Button, Table, CloseButton, Dropdown } from 'react-bootstrap';
 // import BSTest01 from './bstest03';
 // import BSTest02 from './bstest04';
-import Home from './Home05';
+// import Home from './Home05';
+import Home2 from './ex01_220427/Home2'
 
 // 리액트용 부트스트랩 사용하기
 // 리액트용 부트스트랩 설치
@@ -44,7 +45,8 @@ function App() {
       <hr />
       <BSTest02 />
       <hr /> */}
-      <Home />
+      {/* <Home /> */}
+      <Home2 />
 
 
       {/* <header className="App-header">
