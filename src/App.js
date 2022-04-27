@@ -8,8 +8,9 @@ import './App.css';
 
 // 여러 개 가져올 때
 import { Button, Table, CloseButton, Dropdown } from 'react-bootstrap';
-import BSTest01 from './bstest03';
-import BSTest02 from './bstest04';
+// import BSTest01 from './bstest03';
+// import BSTest02 from './bstest04';
+import Home from './Home05';
 
 // 리액트용 부트스트랩 사용하기
 // 리액트용 부트스트랩 설치
@@ -35,15 +36,16 @@ import BSTest02 from './bstest04';
 function App() {
   return (
     <div className="App">
-      <br />
+      {/* <br />
       <hr />
       <Button className= "btn btn-danger"> 리액트용 부트스트랩 </Button>
       <hr />
       <BSTest01 />
       <hr />
       <BSTest02 />
-      <hr />
-      
+      <hr /> */}
+      <Home />
+
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
