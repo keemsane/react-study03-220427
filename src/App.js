@@ -1,7 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from 'react-bootstrap/Button'
-// import { Button } from 'react-bootstrap';
+// 하나씩 가져올 때
+// import Button from 'react-bootstrap/Button'
+// import Table from 'react-bootstrap/Table'
+// import CloseButton from 'react-bootstrap/CloseButton'
+// import Dropdown from 'react-bootstrap/Dropdown'
+
+// 여러 개 가져올 때
+import { Button, Table, CloseButton, Dropdown } from 'react-bootstrap';
 
 // 리액트용 부트스트랩 사용하기
 // 리액트용 부트스트랩 설치
@@ -28,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <br />
-      <Button> 리액트용 부트스트랩 </Button>
+      <Button className= "btn btn-danger"> 리액트용 부트스트랩 </Button>
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
